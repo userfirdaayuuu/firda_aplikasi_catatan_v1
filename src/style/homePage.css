@@ -1,0 +1,25 @@
+.theBG{
+    height: 100vh;
+    background: url("../img/background.png.png");
+    opacity: 75%;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: scroll;
+}
+
+.first{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 50px;
+    color: yellow;
+    font-weight: 600;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}

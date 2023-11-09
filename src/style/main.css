@@ -1,0 +1,9 @@
+.cardku {
+    margin-bottom: 2rem;
+    width: 20%;
+    /* min-height: 300px; */
+    margin-left: 15%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-between;
+}
