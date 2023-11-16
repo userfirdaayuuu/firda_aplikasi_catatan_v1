@@ -1,4 +1,6 @@
-import {Navbar, Container, Nav, NavbarBrand, NavLink} from "react-bootstrap"
+import { Navbar, Container, nav, NavbarBrand } from "react-bootstrap"
+import { Link } from "react-router-dom"
+import { FiFile, FiEdit3 } from "react-icons/fi"
 
 const Navigation = () => {
     return (
@@ -6,9 +8,14 @@ const Navigation = () => {
             <Navbar className="bg-body-tertiary">
                 <Container>
                     <NavbarBrand>Memochou</NavbarBrand>
-                    <Nav>
-                        <NavLink>Other</NavLink>
-                    </Nav>
+                    <nav className="link">
+                        <Link className="linka" to="/">
+                            <FiFile />
+                        </Link>
+                        <Link className="linkb" to="/second">
+                            <FiEdit3 />
+                        </Link>
+                    </nav>
                 </Container>
             </Navbar>
         </div>
