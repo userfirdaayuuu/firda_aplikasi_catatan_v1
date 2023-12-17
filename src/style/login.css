@@ -1,0 +1,10 @@
+.form{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 20%;
+    /* min-height: 300px; */
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    display: flex;
+    justify-content: center;
+}
